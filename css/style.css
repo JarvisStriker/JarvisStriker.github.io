@@ -263,9 +263,7 @@ background-position: 3px -94px;
 .welcome-note{
 	margin:3em 0;
 }
-.note{
-	
-}
+
 .note h1{
 	color:#FFF;
 	font-size:2.5em;
@@ -1036,7 +1034,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     top: 25px;
     right: 25px;
    width: 45px;
-    height: 45px
+    height: 45px;
     background-color: transparent;
     cursor: pointer;
     z-index: 1;
@@ -2032,3 +2030,8 @@ span.border.two:after {
     
     color: white;
 }
+@media (max-width: 600px) {
+	.mobile-break-hide{
+	  display: none;
+	}
+  }
